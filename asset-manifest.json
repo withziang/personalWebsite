@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ziangwang/static/css/main.fbb37792.css",
-    "main.js": "/ziangwang/static/js/main.8dbffbdb.js",
+    "main.js": "/ziangwang/static/js/main.5b1d2ce4.js",
     "static/media/firstpage.jpg": "/ziangwang/static/media/firstpage.38a68c0d9900d8d5bc31.jpg",
     "static/media/landscape2.png": "/ziangwang/static/media/landscape2.128c3d0a41406c419e90.png",
     "static/media/motosport.png": "/ziangwang/static/media/motosport.2733fc7d7633222ec989.png",
@@ -14,10 +14,10 @@
     "static/media/220px-Trefoil_knot_arb.png": "/ziangwang/static/media/220px-Trefoil_knot_arb.a7c380c9f433fd1c495c.png",
     "index.html": "/ziangwang/index.html",
     "main.fbb37792.css.map": "/ziangwang/static/css/main.fbb37792.css.map",
-    "main.8dbffbdb.js.map": "/ziangwang/static/js/main.8dbffbdb.js.map"
+    "main.5b1d2ce4.js.map": "/ziangwang/static/js/main.5b1d2ce4.js.map"
   },
   "entrypoints": [
     "static/css/main.fbb37792.css",
-    "static/js/main.8dbffbdb.js"
+    "static/js/main.5b1d2ce4.js"
   ]
 }
