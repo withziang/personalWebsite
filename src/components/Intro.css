@@ -1,0 +1,97 @@
+.p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+@media screen and (max-width:1400px){
+
+    p.word2{
+        font-size: 20px;
+        padding-left: 3%;
+        padding-right: 3%;
+        height: auto;
+    }
+
+}
+@media screen and (max-width:700px){
+
+    p.word2{
+        padding-top: 15%;
+    
+    }
+    
+    p.Aboutme{
+        transform: scale(0.7);
+    }
+    div.pic{
+        transform: scale(0.7);
+    }
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.Aboutme{
+    background: linear-gradient(to left,#9b9191, #fafafa);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 93px;
+    font-weight: 600;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: relative;
+    top: 120px;
+    clear: both;
+    padding-bottom: 5%;
+
+}
+
+.center{
+    place-items: center;
+    display: grid;
+    overflow-x: visible;
+    padding: 0;
+}
+
+.word2{
+    color: #a9a9ab;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: relative;
+    line-height: 1.45em;
+    text-indent: 2em;
+    width:60%;
+    left: 3%;
+    margin-top: 13%;
+    margin-bottom: 10%;
+
+
+}
+
+.word2 em{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-style: normal; 
+    margin: 0;
+}
+
+
+
+.pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("./image/selfie.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10%;
+
+}
+
+

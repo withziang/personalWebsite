@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+
+
+}
+html, body {
+  overflow-x: hidden;
+  min-width: 344px;
+
+}
+.Firstpage{
+  height: 700px;
+  background-image: url('./components/image/firstpage.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.section-content1 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(23, 23, 23);
+}
+
+@media only screen and ((max-width:1400px) or (max-height: 1000px)){
+  .section-content1{
+    height: auto;
+  }
+
+}
+
+
+
+.section-content3 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(23, 23, 23);
+  min-height: 100vh;
+}
+
+.section-content2 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(23, 23, 23);
+  min-height: 400px;
+}
+.section-content4 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(23, 23, 23);
+  min-height: 100vh;
+}
+.section-content5 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  min-height: 500px;
+  justify-content: center;
+}
+
+
