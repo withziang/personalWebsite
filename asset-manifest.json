@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ziangwang/static/css/main.fbb37792.css",
-    "main.js": "/ziangwang/static/js/main.90bc7cec.js",
+    "main.js": "/ziangwang/static/js/main.8dbffbdb.js",
     "static/media/firstpage.jpg": "/ziangwang/static/media/firstpage.38a68c0d9900d8d5bc31.jpg",
     "static/media/landscape2.png": "/ziangwang/static/media/landscape2.128c3d0a41406c419e90.png",
     "static/media/motosport.png": "/ziangwang/static/media/motosport.2733fc7d7633222ec989.png",
@@ -9,14 +9,15 @@
     "static/media/wildlife.png": "/ziangwang/static/media/wildlife.acb14a5e81f983cd8078.png",
     "static/media/concert2.png": "/ziangwang/static/media/concert2.b63c61efe8e34cd26cd3.png",
     "static/media/selfie.png": "/ziangwang/static/media/selfie.a5ccb66e326e192e3ded.png",
+    "static/media/ZiangWangResume.pdf": "/ziangwang/static/media/ZiangWangResume.69089c1d17e520aeafb1.pdf",
     "static/media/programming_image.jpg": "/ziangwang/static/media/programming_image.39684d8dff0c4aaa7d96.jpg",
     "static/media/220px-Trefoil_knot_arb.png": "/ziangwang/static/media/220px-Trefoil_knot_arb.a7c380c9f433fd1c495c.png",
     "index.html": "/ziangwang/index.html",
     "main.fbb37792.css.map": "/ziangwang/static/css/main.fbb37792.css.map",
-    "main.90bc7cec.js.map": "/ziangwang/static/js/main.90bc7cec.js.map"
+    "main.8dbffbdb.js.map": "/ziangwang/static/js/main.8dbffbdb.js.map"
   },
   "entrypoints": [
     "static/css/main.fbb37792.css",
-    "static/js/main.90bc7cec.js"
+    "static/js/main.8dbffbdb.js"
   ]
 }
