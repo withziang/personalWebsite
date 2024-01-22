@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/ziangwang/static/css/main.49d7534e.css",
-    "main.js": "/ziangwang/static/js/main.4ad9ad69.js",
-    "static/media/landscape2.png": "/ziangwang/static/media/landscape2.128c3d0a41406c419e90.png",
-    "static/media/motosport.png": "/ziangwang/static/media/motosport.2733fc7d7633222ec989.png",
-    "static/media/landscape1.png": "/ziangwang/static/media/landscape1.4cd9f0b2dc7033c121e1.png",
-    "static/media/wildlife.png": "/ziangwang/static/media/wildlife.acb14a5e81f983cd8078.png",
-    "static/media/firstpage.png": "/ziangwang/static/media/firstpage.71e86ab1bdecdd7b60bf.png",
-    "static/media/concert2.png": "/ziangwang/static/media/concert2.b63c61efe8e34cd26cd3.png",
-    "static/media/selfie.png": "/ziangwang/static/media/selfie.a5ccb66e326e192e3ded.png",
-    "static/media/programming_image.jpg": "/ziangwang/static/media/programming_image.39684d8dff0c4aaa7d96.jpg",
-    "static/media/ZiangWangResume.pdf": "/ziangwang/static/media/ZiangWangResume.cf4021580b93cdff247d.pdf",
-    "static/media/220px-Trefoil_knot_arb.png": "/ziangwang/static/media/220px-Trefoil_knot_arb.a7c380c9f433fd1c495c.png",
-    "index.html": "/ziangwang/index.html",
-    "main.49d7534e.css.map": "/ziangwang/static/css/main.49d7534e.css.map",
-    "main.4ad9ad69.js.map": "/ziangwang/static/js/main.4ad9ad69.js.map"
+    "main.css": "/personalWebsite/static/css/main.5757560b.css",
+    "main.js": "/personalWebsite/static/js/main.08f65c20.js",
+    "static/media/landscape1.jpg": "/personalWebsite/static/media/landscape1.af65d973c307c164417f.jpg",
+    "static/media/landscape2.jpg": "/personalWebsite/static/media/landscape2.af03af7c79304b74b2ce.jpg",
+    "static/media/wildlife.jpg": "/personalWebsite/static/media/wildlife.ac2fe853b8286747e2be.jpg",
+    "static/media/selfie.jpg": "/personalWebsite/static/media/selfie.c755af6266251bc3021b.jpg",
+    "static/media/concert2.jpg": "/personalWebsite/static/media/concert2.ceb0994088c006c1d690.jpg",
+    "static/media/motosport.jpg": "/personalWebsite/static/media/motosport.720786cb5f5c0117171b.jpg",
+    "static/media/firstpage.jpg": "/personalWebsite/static/media/firstpage.38a68c0d9900d8d5bc31.jpg",
+    "static/media/programming_image.jpg": "/personalWebsite/static/media/programming_image.39684d8dff0c4aaa7d96.jpg",
+    "static/media/220px-Trefoil_knot_arb.png": "/personalWebsite/static/media/220px-Trefoil_knot_arb.a7c380c9f433fd1c495c.png",
+    "index.html": "/personalWebsite/index.html",
+    "main.5757560b.css.map": "/personalWebsite/static/css/main.5757560b.css.map",
+    "main.08f65c20.js.map": "/personalWebsite/static/js/main.08f65c20.js.map"
   },
   "entrypoints": [
-    "static/css/main.49d7534e.css",
-    "static/js/main.4ad9ad69.js"
+    "static/css/main.5757560b.css",
+    "static/js/main.08f65c20.js"
   ]
 }
