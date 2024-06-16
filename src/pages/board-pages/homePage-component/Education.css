@@ -1,0 +1,177 @@
+*{
+  overflow: visible;
+}
+
+.title3{
+  background: linear-gradient(to right, #130280, #ffffff);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 93px;
+  font-weight: 600;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  position: relative;
+  padding-top: 5%;
+  
+  
+}
+@media screen and (max-width: 700px ) {
+    p.title3{
+    
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 700px ) {
+  p.title2{
+  
+      font-size: 50px;
+  }
+}
+.vertical-line {
+    position: absolute;
+    display: inline-block;
+    height: 250px; 
+    width: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    z-index: 3;
+
+  }
+
+.education_context{
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    position: relative;
+    padding-right: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    div.education_context{
+        padding-right: 50%;
+
+    }
+}
+@media screen and (max-width: 500px) {
+  div.education_context{
+      padding-right: 80%;
+      transform: scale(0.8);
+      padding-top: 20%;
+  }
+}
+.dot {
+    position: absolute;
+    top: 50%;
+    width: 10px; 
+    height: 10px; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 50%;
+    transform: translateX(-50%);
+    left:1px;
+    z-index: 4;
+
+  }
+
+  
+.dot:nth-child(1) {
+top: 0; 
+width: 14px; 
+height: 14px;
+}
+
+.dot:nth-child(2) {
+top:50%;
+width: 12px; 
+height: 12px;
+
+}
+
+.dot:nth-child(3) {
+top:100%;
+width: 12px; 
+height: 12px;
+}
+
+
+.circle {
+    width: 24px; 
+    height: 24px; 
+    background-color: rgba(22, 63, 199, 0); 
+    border-radius: 12px;
+    border: 2px solid rgb(255, 255, 255);
+    animation: rotate 4s linear infinite;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    position: relative; 
+    border-top-color: transparent;
+    right: 5.4px;
+    top: -4.8px;
+
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg); 
+    }
+}
+
+.hline{
+   
+  width:80%;
+  height: 1px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 1px;
+  
+  
+}
+
+
+.dot-text {
+    position: absolute;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    border: solid white;
+    background: rgb(0, 0, 0);
+    white-space: nowrap;
+    padding: 4px;
+    font-weight: 300;
+    letter-spacing: .012em;
+    font-family: Verdana, sans-serif;
+    line-height: 1.45em;
+    text-decoration:none;
+    border-radius: 0.7em;
+    padding: 6px;
+    box-shadow: 1.5px 1.5px 8px  rgba(255, 255, 255, 0.523);
+    z-index: 5;
+
+}
+
+.dot-text:hover{
+    filter: brightness(0.8);
+    transform: scale(1.05);
+  }
+
+.dot-text em{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-style: normal; 
+    margin: 0;
+    font-size: 12px;
+    color: #bfbfbf;
+}
+
+
+.dot-text.right { 
+    left: 30px; 
+    top:-14px;
+}
+

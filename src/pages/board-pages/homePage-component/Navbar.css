@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open Sans', sans-serif;
+}
+
+
+.logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    opacity:0.9;
+    filter: brightness(0.8) ;
+    position: absolute;
+    top: 12px;
+    left: 10%;
+    z-index: 1000;
+}
+
+.logo:hover{
+    color:rgb(245, 245, 245);
+    opacity: 1;
+    filter: brightness(1);
+}
+
+
+.navbar{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(22, 22, 22, 0.701);
+    border-bottom-style: solid;
+    border-bottom-color: rgba(78, 77, 77, 0.746);
+    border-bottom-width: 2px;
+    padding-left: 5%;
+}
+
+.title{
+    color:#fff;
+    text-align: center;
+    position: absolute;
+    top:12px;
+    font-family: Arial,sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    filter: brightness(0.8);
+    font-weight: 500;
+    left:45%;
+}
+
+@media only screen and (max-width: 900px) {
+    .title{
+        visibility: collapse;
+    }
+}
+
+
+
+
+.logo > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+
+.logo ul {
+
+    height:  auto;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    transition: opacity .5s ease, visibility .2s ease;
+    top: 28px;
+    width: 300px;
+    box-shadow: 0 0 5px 0px rgb(83, 83, 83);
+    visibility: hidden;
+    z-index: 1000;
+    filter: blur(0.4);
+}
+
+
+
+  
+.logo > a:hover + ul,
+.logo > a:focus + ul,
+.logo ul:hover {
+  height: auto;
+  opacity: 1;
+  visibility: visible; 
+  transition-delay: 0s, 0.2s; 
+  width: 300px;
+}
+
+
+.logo ul a {
+    color: #ffffff;
+    display: block;
+    background-color: rgba(73, 77, 80, 0.767);
+    text-decoration: none;
+    padding: 30px;
+    height: 80px;
+    filter: blur(1);
+    z-index: 1000;
+    position: relative;
+  
+}
+
+.logo ul a:hover{
+    background-color: rgb(190, 190, 190);
+    color: black;
+    filter: brightness(0.9);
+}
+
+@media screen and (max-width:1030px){
+    .logo ul a {
+        background-color: rgb(73, 77, 80);
+        left: 0;
+        width: 100%;
+    }
+
+
+}
+
+
+.vanish{
+    visibility: hidden;
+}
+
+
+.blah{
+    position: absolute;
+    z-index: 4;
+}
+
+
+
+.slogan{
+    background: linear-gradient(to left, #0f0667, #dd3939);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 90px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-bottom: 3%;
+    z-index: 3;
+    position: relative;
+   
+}
+  
+@media only screen and (max-width: 700px){
+    .slogan{
+      transform: scale(0.7);
+    }
+  
+    .Firstpage{
+      height: 100vh;
+    }
+}
+  
+.word1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 3;
+    position: fixed;
+    top: 300px;
+}
+  
+@media only screen and (max-height: 360px){
+    .word1{
+      visibility: collapse;
+    }
+  }
+@media only screen and (((max-width: 540px) and (max-height: 900px)) or ((max-width: 1040px) and (max-height: 470px))){
+    .button{
+      visibility: collapse;
+    }
+}
+  
+.button {
+    border: solid;
+    outline: none;
+    border-radius: 2.5em;
+    border-width: 3.8px;
+    height: 2.5em;
+    width: 140px;
+    right: 30%;
+    position: absolute;
+    font-size: 19px;
+    top: 500px;
+    left: 59%;
+    font-family: Arial,sans-serif;
+    text-decoration:none;
+    padding: 0.5em 0.5em;
+    font-weight: 780;
+    text-align: center;
+    vertical-align: middle;
+    max-height: 10%;
+    z-index: 10;
+}
+
+
+  
+
+.button:hover{
+    background-image: linear-gradient(to left, #0f0667, #dd3939);
+    color:white;
+    border: none;
+    padding: 0.7em 0.5em;
+}
+  
