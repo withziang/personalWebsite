@@ -1,7 +1,12 @@
 {
   "files": {
-    "main.css": "/personalWebsite/static/css/main.5757560b.css",
-    "main.js": "/personalWebsite/static/js/main.08f65c20.js",
+    "main.css": "/personalWebsite/static/css/main.2ab4c8c4.css",
+    "main.js": "/personalWebsite/static/js/main.18b0e905.js",
+    "static/css/300.eaacd10f.chunk.css": "/personalWebsite/static/css/300.eaacd10f.chunk.css",
+    "static/js/300.f8b6acc1.chunk.js": "/personalWebsite/static/js/300.f8b6acc1.chunk.js",
+    "static/js/59.5065c5b3.chunk.js": "/personalWebsite/static/js/59.5065c5b3.chunk.js",
+    "static/js/509.0103735c.chunk.js": "/personalWebsite/static/js/509.0103735c.chunk.js",
+    "static/js/433.7d15632e.chunk.js": "/personalWebsite/static/js/433.7d15632e.chunk.js",
     "static/media/landscape1.jpg": "/personalWebsite/static/media/landscape1.af65d973c307c164417f.jpg",
     "static/media/landscape2.jpg": "/personalWebsite/static/media/landscape2.af03af7c79304b74b2ce.jpg",
     "static/media/wildlife.jpg": "/personalWebsite/static/media/wildlife.ac2fe853b8286747e2be.jpg",
@@ -11,12 +16,10 @@
     "static/media/firstpage.jpg": "/personalWebsite/static/media/firstpage.38a68c0d9900d8d5bc31.jpg",
     "static/media/programming_image.jpg": "/personalWebsite/static/media/programming_image.39684d8dff0c4aaa7d96.jpg",
     "static/media/220px-Trefoil_knot_arb.png": "/personalWebsite/static/media/220px-Trefoil_knot_arb.a7c380c9f433fd1c495c.png",
-    "index.html": "/personalWebsite/index.html",
-    "main.5757560b.css.map": "/personalWebsite/static/css/main.5757560b.css.map",
-    "main.08f65c20.js.map": "/personalWebsite/static/js/main.08f65c20.js.map"
+    "index.html": "/personalWebsite/index.html"
   },
   "entrypoints": [
-    "static/css/main.5757560b.css",
-    "static/js/main.08f65c20.js"
+    "static/css/main.2ab4c8c4.css",
+    "static/js/main.18b0e905.js"
   ]
 }
